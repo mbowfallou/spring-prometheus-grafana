@@ -1,0 +1,5 @@
+docker run --name prometheus -p 9090:9090 -d -v /C:/Users/MbowNgaala/Documents/Programmation/IntelliJ/spring-boot-grafana-prometheus/src/main/resources prom/prometheus
+
+docker run --name grafana -d -p 3000:3000 grafana/grafana
+
+
